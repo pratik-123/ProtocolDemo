@@ -12,6 +12,8 @@
 		306560E71FE679EE0053C407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306560E51FE679EE0053C407 /* Main.storyboard */; };
 		306560E91FE679EE0053C407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306560E81FE679EE0053C407 /* Assets.xcassets */; };
 		306560EC1FE679EE0053C407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306560EA1FE679EE0053C407 /* LaunchScreen.storyboard */; };
+		306560F41FE67B130053C407 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306560F31FE67B130053C407 /* SecondViewController.swift */; };
+		306560F61FE682460053C407 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 306560F51FE682460053C407 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		306560E81FE679EE0053C407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		306560EB1FE679EE0053C407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		306560ED1FE679EE0053C407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306560F31FE67B130053C407 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		306560F51FE682460053C407 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		306560D51FE679EB0053C407 = {
 			isa = PBXGroup;
 			children = (
+				306560F51FE682460053C407 /* README.md */,
 				306560E01FE679ED0053C407 /* ProtocolDemo */,
 				306560DF1FE679ED0053C407 /* Products */,
 			);
@@ -60,6 +65,7 @@
 				306560E81FE679EE0053C407 /* Assets.xcassets */,
 				306560EA1FE679EE0053C407 /* LaunchScreen.storyboard */,
 				306560ED1FE679EE0053C407 /* Info.plist */,
+				306560F31FE67B130053C407 /* SecondViewController.swift */,
 			);
 			path = ProtocolDemo;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306560F41FE67B130053C407 /* SecondViewController.swift in Sources */,
 				306560E41FE679EE0053C407 /* ViewController.swift in Sources */,
+				306560F61FE682460053C407 /* README.md in Sources */,
 				306560E21FE679EE0053C407 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
